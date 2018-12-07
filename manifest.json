@@ -1,0 +1,25 @@
+{
+  "name": "Quora Sort By UpVotes",
+  "version": "1.0",
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "images/quora16.png",
+      "32": "images/quora32.png",
+      "48": "images/quora48.png",
+      "128": "images/quora128.png"
+    }
+  },
+  "icons": {
+    "16": "images/quora16.png",
+    "32": "images/quora32.png",
+    "48": "images/quora48.png",
+    "128": "images/quora128.png"
+  },
+  "manifest_version": 2
+}

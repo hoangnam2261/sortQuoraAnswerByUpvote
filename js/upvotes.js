@@ -37,7 +37,7 @@ function getAnswerCount(answer) {
 
 
 
-var answerListOutter = document.getElementsByClassName('UnifiedAnswerPagedList PagedListFoo')[0];
+var answerListOutter = document.getElementsByClassName('UnifiedAnswerPagedList PagedListFoo unified')[0];
 var answerList = answerListOutter.getElementsByClassName('paged_list_wrapper')[0];
 
 //removed collapsed answers

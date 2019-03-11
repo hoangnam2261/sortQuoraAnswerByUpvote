@@ -22,12 +22,12 @@ function removePlus(num){
 }
 
 function getAnswerCount(answer) {
-	var upvoteBar = $(answer).find('.ui_button_count')[0];
+	var upvoteBar = $(answer).find('.ui_button_label_count_wrapper')[0];
 	if (upvoteBar == null) {
 		return -1
 	}
-	if ($(upvoteBar).find('.ui_button_count_static')[0] != null) {
-		return $(upvoteBar).find('.ui_button_count_static')[0].innerHTML;
+	if ($(upvoteBar).find('.ui_button_count_inner')[0] != null) {
+		return $(upvoteBar).find('.ui_button_count_inner')[0].innerHTML;
 	} else if ($(upvoteBar).find('.ui_button_count_optimistic_count:not(.hidden)')[0] != null){
 		return $(upvoteBar).find('.ui_button_count_optimistic_count:not(.hidden)')[0].innerHTML;
 	} else {
